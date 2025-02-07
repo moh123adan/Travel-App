@@ -60,5 +60,5 @@ If you encounter any bugs or have suggestions for improvements, feel free to ope
 
 ## Feedback
 
-If you have any feedback, please reach out to us at Ifty09rahman@gmail.com
+If you have any feedback, please reach out to us at maxamedadan169@gmail.com
 
