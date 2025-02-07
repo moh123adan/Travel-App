@@ -1,0 +1,15 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow read and write access to the Admin collection
+    match /Admin/{document=**} {
+      allow read, write: if true;
+    }
+
+    // Default rule to deny access to other collections
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
